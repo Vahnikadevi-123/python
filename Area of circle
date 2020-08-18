@@ -1,3 +1,14 @@
 radius=int(input())
 area=3.14*radius**2
 print(area)
+
+
+#OR
+
+
+import math as m
+radius=float(input())
+a=m.pi
+area=a*radius**2
+print(area)
+
