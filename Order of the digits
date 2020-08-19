@@ -1,0 +1,12 @@
+n=input()
+n1=list(n)
+a=list(n)
+a.sort()
+c=a
+b=a[::-1]
+if n1==c:
+    print("ascending order")
+elif n1==b:
+    print("descending order")
+else:
+    print("no order")
