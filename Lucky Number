@@ -12,11 +12,7 @@ while n:
 else:
     print("Lucky Number")
     
- 
- 
-#OR
-
-
+                #OR
 
 n=int(input())
 temp=n
