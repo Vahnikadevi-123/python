@@ -31,5 +31,5 @@ while n!=0:
 if digit_count==division_count:
     print("Lucky Number")
 else:
-    print("")
+    print("Unlucky Number")
 
