@@ -1,0 +1,13 @@
+n=int(input())
+b=n
+while n:
+    r=n%10 
+    a=0
+    n=n//10
+    a+=r
+    if b%a==0:
+        continue
+    print("unlucky number")
+    break
+else:
+    print("Lucky Number")
