@@ -23,11 +23,11 @@ temp=n
 digit_count=0
 division_count=0
 while n!=0:
-r=n%10
-digit_count+=1
-if temp%r==0:
-division_count+=1
-n=n//10
+    r=n%10
+    digit_count+=1
+    if temp%r==0:
+        division_count+=1
+    n=n//10
 if digit_count==division_count:
 print("")
 else:
