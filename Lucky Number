@@ -29,7 +29,7 @@ while n!=0:
         division_count+=1
     n=n//10
 if digit_count==division_count:
-print("")
+    print("")
 else:
-print("")
+    print("")
 
