@@ -14,17 +14,19 @@ else:
     
                 #OR
 
+
+#*****************
 n=int(input())
 temp=n
 digit_count=0
-division_count=0
+divide_count=0
 while n!=0:
     r=n%10
     digit_count+=1
     if temp%r==0:
-        division_count+=1
+        divide_count+=1
     n=n//10
-if digit_count==division_count:
+if digit_count==divide_count:
     print("Lucky Number")
 else:
     print("Unlucky Number")
