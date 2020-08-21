@@ -26,5 +26,9 @@ while n:
     digit_count+=1
     if temp%r==0:
         divide_count+=1
+    else:
+    print("Unlucky Number")
+    break
+    
 
 
