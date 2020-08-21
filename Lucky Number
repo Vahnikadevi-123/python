@@ -29,6 +29,8 @@ while n:
     else:
         print("Unlucky Number")
         break
+ else:
+     print("LUcky Number")
     
 
 
