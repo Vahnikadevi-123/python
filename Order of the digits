@@ -37,8 +37,8 @@ while n:
         y=r
         ac+=1
 if (dc==digit_count):
-print("ascending order")
+    print("ascending order")
 elif (ac==digit_count):
-print("descending order")
+    print("descending order")
 else:
-print("No order")
+    print("No order")
