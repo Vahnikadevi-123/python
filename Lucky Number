@@ -20,14 +20,11 @@ n=int(input())
 temp=n
 digit_count=0
 divide_count=0
-while n!=0:
+while n:
     r=n%10
+    n=n//10
     digit_count+=1
     if temp%r==0:
         divide_count+=1
-    n=n//10
-if digit_count==divide_count:
-    print("Lucky Number")
-else:
-    print("Unlucky Number")
+
 
