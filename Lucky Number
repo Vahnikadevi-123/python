@@ -27,8 +27,8 @@ while n:
     if temp%r==0:
         divide_count+=1
     else:
-    print("Unlucky Number")
-    break
+        print("Unlucky Number")
+        break
     
 
 
