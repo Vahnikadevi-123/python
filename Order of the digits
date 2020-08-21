@@ -10,3 +10,34 @@ elif n1==b:
     print("descending order")
 else:
     print("no order")
+    
+    
+    
+             ***********************
+                       #OR
+             ***********************
+         
+         
+#Without using Lists:
+n=int(input())
+x=10
+dc=0
+y=0
+ac=0
+digit_count=0
+while n:
+r=n%10
+n=n//10
+digit_count+=1
+if x>r:
+x=r
+dc+=1
+if y<r:
+y=r
+ac+=1
+if (dc==digit_count):
+print("ascending order")
+elif (ac==digit_count):
+print("descending order")
+else:
+print("No order")
