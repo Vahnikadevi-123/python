@@ -4,13 +4,13 @@ n=int(input())
 product=1
 sum=0
 while n:
-r=n%10
-n=n//10
-sum=sum+r
-product=product*r
-if n==0:
-break
+    r=n%10
+    n=n//10
+    sum=sum+r
+    product=product*r
+    if n==0:
+        break
 if sum==product:
-print("Spy Number")
+    print("Spy Number")
 else:
-print("Not a Spy Number")
+    print("Not a Spy Number")
