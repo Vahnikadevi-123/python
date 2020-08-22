@@ -4,11 +4,11 @@ n=int(input())
 temp=n
 sum=0
 while n:
-r=n%10
-n=n//10
-sum=sum+r
-if n==0:
-break
+    r=n%10
+    n=n//10
+    sum=sum+r
+    if n==0:
+        break
 if temp%sum==0:
 print("Harshad Number")
 else:
