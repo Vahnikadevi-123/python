@@ -1,3 +1,5 @@
+##If the sum of the factorials of individual digits is equal to the number then it is called "STRONG NUMBER"
+
 n=int(input())
 n1=int(n)
 sum=0
