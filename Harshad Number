@@ -1,0 +1,15 @@
+##If the number exactly divisible by sum of the digits in it, then it is called as "HARSHAD NUMBER"
+
+n=int(input())
+temp=n
+sum=0
+while n:
+r=n%10
+n=n//10
+sum=sum+r
+if n==0:
+break
+if temp%sum==0:
+print("Harshad Number")
+else:
+print("Not a Harshad Number")
