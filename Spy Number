@@ -1,3 +1,5 @@
+#if the sum of the digits and products of the digits in a number are equal then it is called "SPY NUMBER"
+
 n=int(input())
 product=1
 sum=0
