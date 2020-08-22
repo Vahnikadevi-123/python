@@ -10,6 +10,6 @@ while n:
     if n==0:
         break
 if temp%sum==0:
-print("Harshad Number")
+    print("Harshad Number")
 else:
-print("Not a Harshad Number")
+    print("Not a Harshad Number")
