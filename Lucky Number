@@ -1,3 +1,5 @@
+##If the number divided by every digit in that, then it is "LUCKY NUMBER"
+
 n=int(input())
 b=n
 while n:
