@@ -1,4 +1,7 @@
 #if the sum of the digits and products of the digits in a number are equal then it is called "SPY NUMBER"
+    Example:132
+            1+3+2=6
+            1*3*2=6     **Hence 132---> SPY NUMBER
 
 n=int(input())
 product=1
