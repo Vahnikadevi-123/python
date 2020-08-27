@@ -1,4 +1,6 @@
 
+
+
 import math
 n=int(input())
 c=1
