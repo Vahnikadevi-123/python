@@ -1,4 +1,8 @@
-
+##If a given number is prime then each and every digit present in it must be prime.
+  Example: 97---> prime
+           9---> not a prime
+           7---> prime 
+           Hence, 97 ----> Not a Mega Prime
 
 
 import math
