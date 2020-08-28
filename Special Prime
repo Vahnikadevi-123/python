@@ -18,7 +18,6 @@ def near_prime(n):
 if is_prime(n):
     a=near_prime(n)
     b=near_prime(a)
-    print(a,b)
     while True:
         if a+b+c==n:
             print("Special Prime")
