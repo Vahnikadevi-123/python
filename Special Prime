@@ -26,6 +26,7 @@ if is_prime(n):
             a=b
             b=near_prime(a)
         if a==2 or b==2:
+        print("Prime but not a Special Prime")
             break
 else:
     print("Not a prime")
