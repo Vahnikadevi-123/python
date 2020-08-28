@@ -24,6 +24,9 @@ else:
         print("Prime but not a mega prime")
         
         
+                *************************
+                         OR
+                *************************
         
         
 import math as m
