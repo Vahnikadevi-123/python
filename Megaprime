@@ -1,3 +1,6 @@
+
+
+
 import math
 n=int(input())
 pc=0
