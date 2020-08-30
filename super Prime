@@ -1,6 +1,7 @@
 ## If a number is Prime and the position at which it lies is also a prime then it is called as SUPER PRIME
-
-
+   Example: 2 3 5 7 
+   
+   
 import math
 n=int(input())
 def is_prime(n):
