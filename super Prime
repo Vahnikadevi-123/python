@@ -1,7 +1,11 @@
 ## If a number is Prime and the position at which it lies is also a prime then it is called as SUPER PRIME
             Primes ----> 2 3 5 7 11 13 17 19 23 29.....
             positons --> 1 2 3 4  5  6  7  8  9 10.....
-    import math
+      Example: 11
+               output---> Super prime    (As 11 is prime and the positon)
+
+
+import math
 n=int(input())
 def is_prime(n):
     if n==1:
