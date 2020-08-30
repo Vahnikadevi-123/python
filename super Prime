@@ -2,7 +2,7 @@
             Primes ----> 2 3 5 7 11 13 17 19 23 29.....
             positons --> 1 2 3 4  5  6  7  8  9 10.....
       Example: 11
-               output---> Super prime    (As 11 is prime and the positon)
+               output---> Super prime   (As 11 is prime and the positon at which it lies, (i.e;5) is also prime)
 
 
 import math
