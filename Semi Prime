@@ -15,8 +15,11 @@ if is_prime(i):
             break
 else:
     print("Not a Semi prime")
-
-
+    
+    
+           *****************************
+                       OR
+           *****************************
 
 
 from Prime import is_prime
