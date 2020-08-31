@@ -22,4 +22,4 @@ if is_prime(n):
     else:
         print("Not a Super Prime")
 else:
-print("Not a Prime")
+    print("Not a Prime")
