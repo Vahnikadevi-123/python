@@ -14,4 +14,4 @@ if is_prime(i):
             print("Semi prime")
             break
 else:
-print("Not a Semi prime")
+    print("Not a Semi prime")
