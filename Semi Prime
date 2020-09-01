@@ -17,11 +17,13 @@ for i in range(2,x+1):
                 break
 else:
         print("Not a Semi prime")
+        
     
     
            *****************************
                        OR
            *****************************
+
 
 
 from Prime import is_prime
