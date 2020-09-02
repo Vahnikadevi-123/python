@@ -4,8 +4,8 @@ def fibo(n):
     print(a,b,end=" ")
     n=n-2
     while n:
-    c=a+b
-    print(c,end=" ")
+        c=a+b
+        print(c,end=" ")
     a,b=b,c
     n=n-1
 n=int(input())
