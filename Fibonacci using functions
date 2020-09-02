@@ -24,12 +24,12 @@ def fibo(n):
     b=1
     print(a,b,end=" ")
     i=2
-while True:
-c=a+b
-print(c,end=" ")
-a,b=b,c
-i+=1
-if i==n:
-break
+    while True:
+    c=a+b
+    print(c,end=" ")
+    a,b=b,c
+    i+=1
+    if i==n:
+    break
 n=int(input())
 fibo(n)
