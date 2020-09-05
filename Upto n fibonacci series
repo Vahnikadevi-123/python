@@ -1,4 +1,4 @@
-def fibo_series(n)
+def fibo_series(n):
     a=0
     b=1
     x=n
@@ -7,7 +7,7 @@ def fibo_series(n)
     elif n==2:
         print(a,b)
     else:
-        print(a,b.end=" ")
+        print(a,b,end=" ")
         n=n-2
         while n:
             c=a+b
