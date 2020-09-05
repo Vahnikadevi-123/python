@@ -12,4 +12,6 @@ n=n-2
 while n:
 c=a+b
 if c>x:
+break
+print(c,end=" ")
 
