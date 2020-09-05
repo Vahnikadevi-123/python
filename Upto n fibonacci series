@@ -16,5 +16,6 @@ break
 print(c,end=" ")
 a,b=b,c
 n=n-1
-fibo(n)
+n=int(input())
+fibo_series(n)
 
