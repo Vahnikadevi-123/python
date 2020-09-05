@@ -9,13 +9,13 @@ def fibo_series(n)
     else:
         print(a,b.end=" ")
         n=n-2
-while n:
-c=a+b
-if c>x:
-break
-print(c,end=" ")
-a,b=b,c
-n=n-1
+        while n:
+            c=a+b
+            if c>x:
+                break
+            print(c,end=" ")
+            a,b=b,c
+            n=n-1
 n=int(input())
 fibo_series(n)
 
