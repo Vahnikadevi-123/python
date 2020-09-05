@@ -14,4 +14,7 @@ c=a+b
 if c>x:
 break
 print(c,end=" ")
+a,b=b,c
+n=n-1
+fibo(n)
 
