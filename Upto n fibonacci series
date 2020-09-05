@@ -8,3 +8,8 @@ elif n==2:
 print(a,b)
 else:
 print(a,b.end=" ")
+n=n-2
+while n:
+c=a+b
+if c>x:
+
