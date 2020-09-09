@@ -1,0 +1,9 @@
+n=int(input())#5
+print(n,end=" ")
+while n!=1:
+    if n%2==0:
+        n=n/2#8 4 2 1
+        print(int(n),end=" ")#8 4
+    else:
+        n=3*n+1#16
+        print(int(n),end=" ")#16
