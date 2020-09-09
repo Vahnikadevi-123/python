@@ -1,7 +1,7 @@
 
-def re_collatz_seq(n,i==1):
+def re_collatz_seq(n,i=1):
     if i==1:
-        print(n)
+        print(n,end=" ")
         i+=1
         return re_collatz_seq(n,i)
     if n==1:
