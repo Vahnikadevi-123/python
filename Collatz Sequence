@@ -1,9 +1,13 @@
-n=int(input())#5
+##If n is even then n=n/2 and if n is odd then n=3*n+1. If n==1 the it should stop.
+  Output---> 10
+             10 5 16 8 4 2 1
+
+n=int(input())
 print(n,end=" ")
 while n!=1:
     if n%2==0:
-        n=n/2#8 4 2 1
-        print(int(n),end=" ")#8 4
+        n=n/2
+        print(int(n),end=" ")
     else:
-        n=3*n+1#16
-        print(int(n),end=" ")#16
+        n=3*n+1
+        print(int(n),end=" ")
