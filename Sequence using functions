@@ -1,0 +1,10 @@
+def sequence(n):
+i=1
+while n:
+if i<n:
+print(i,end=" ")
+i+=1
+else:
+print(n,end=" ")
+n=n-1
+sequence(n)
