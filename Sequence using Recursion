@@ -1,13 +1,13 @@
 def re_fun(n,i=1):
-if n==0:
-return
-if i<n:
-print(i,end=" ")
-i+=1
-return re_fun(n,i)
-else:
-print(n,end=" ")
-n=n-1
-return re_fun(n,i)
+    if n==0:
+        return
+    if i<n:
+        print(i,end=" ")
+        i+=1
+        return re_fun(n,i)
+    else:
+        print(n,end=" ")
+        n=n-1
+        return re_fun(n,i)
 n=int(input())
 re_fun(n)
