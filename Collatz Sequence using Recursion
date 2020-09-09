@@ -1,3 +1,4 @@
+
 def re_collatz_seq(n,i==1):
     if i==1:
         print(n)
