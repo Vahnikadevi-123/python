@@ -5,7 +5,7 @@
                  1**2+2**2+5**2=30
                  5+25=30   Hence, 125 isma CANADA NUMBER.**
 
-import sqrt from math
+from math import sqrt 
 def sqrsum_of_digit(n):
     sum1=0
     while n:
@@ -21,7 +21,7 @@ def non_trivial_divisors(n):
                 result+=i
             else:
                 result+=i+n//i
-     return result-1-n
+    return result-1-n
 def is_canada(n):
      if sqrsum_of_digit(n)==non_trivial_divisors(n):
          return True
