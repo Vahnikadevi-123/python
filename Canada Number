@@ -3,4 +3,17 @@
                                                           5 25
      Example---> 125
                  1**2+2**2+5**2=30
-                 5+25=30   Hence, 125 isma CANADA NUMBER.
+                 5+25=30   Hence, 125 isma CANADA NUMBER.**
+
+import sqrt from math
+n=int(input())
+result=0
+c=0
+for i in range(1,int(sqrt(n))+1):
+c+=1
+if n%i==0:
+if i==n//i:
+result+=i
+else:
+result+=i+n//i
+print(result)
