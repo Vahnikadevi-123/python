@@ -10,9 +10,7 @@ def non_trivial_divisors(n):
     for i in range(2,n//2):
         if n%i==0:
             sum=sum+i
-    if sum==sum1:
-        return is_canada
-
+    return sum
 
 def is_canada(n):
     if sqrsum_of_digits(n)==non_trivial_divisors(n):
