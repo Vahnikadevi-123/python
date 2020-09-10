@@ -11,7 +11,6 @@ def non_trivial_divisors(n):
         if n%i==0:
             sum=sum+i
     return sum
-
 def is_canada(n):
     if sqrsum_of_digits(n)==non_trivial_divisors(n):
         return True
