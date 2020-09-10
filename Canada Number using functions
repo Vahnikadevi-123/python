@@ -5,6 +5,13 @@ def sqrsum_of_digits(n):
         n=n//10
         sum1=sum1+r**2
     return sum1
+def non_trivial_divisors(n):
+    sum=0
+    for i in range(2,n):
+        if n%i==0:
+            sum=sum+i
+    if sum==sum1:
+        return is_canada
 
 
 def is_canada(n):
