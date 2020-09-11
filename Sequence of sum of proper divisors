@@ -1,3 +1,6 @@
+
+
+
 from math import sqrt
 def proper_div_sum(n):
     if n==1:
