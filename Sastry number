@@ -1,10 +1,10 @@
 from math import sqrt
 def is_sastry(n):
-n1=n+1
-a=str(n)+str(n1)
-b=int(a)
-if sqrt(b)==int(sqrt(b)):
-return "Yes"
-return "No"
+    n1=n+1
+    a=str(n)+str(n1)
+    b=int(a)
+    if sqrt(b)==int(sqrt(b)):
+        return "Yes"
+    return "No"
 n=int(input())
 print(is_sastry(n))
