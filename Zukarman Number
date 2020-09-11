@@ -1,6 +1,8 @@
 ## If a number is exactly divisible by the product of the digits in it, then it is called as ZUKARMAN NUMBER.
    Example: 115
             product=5
+            115%5==0
+            Hence, 115 is a Zukarman number
 
 
 def is_zukarman(n):
