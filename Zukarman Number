@@ -1,0 +1,10 @@
+def is_zukarman(n):
+n1=n
+product=1
+while n:
+r=n%10
+n=n//10
+product=product*r
+if n1%product==0:
+return "Yes"
+return "No"
