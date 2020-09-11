@@ -1,4 +1,4 @@
-
+## If a number n is concatinated with n+1, and if the resultant number is a perfect square the the number is called as SASTRY NUMBER.
 
 
 from math import sqrt
