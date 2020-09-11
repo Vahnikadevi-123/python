@@ -1,3 +1,6 @@
+
+
+
 def is_zukarman(n):
     n1=n
     product=1
@@ -8,5 +11,5 @@ def is_zukarman(n):
     if n1%product==0:
         return "Yes"
     return "No"
-n=int(iuput())
+n=int(input())
 print(is_zukarman(n))
