@@ -1,4 +1,6 @@
 ## If a number n is concatinated with n+1, and if the resultant number is a perfect square the the number is called as SASTRY NUMBER.
+   Example: 183
+            sqrt(183184) is a perfect square. Hence it is a sastry number
 
 
 from math import sqrt
