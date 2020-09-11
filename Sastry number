@@ -1,3 +1,6 @@
+
+
+
 from math import sqrt
 def is_sastry(n):
     n1=n+1
