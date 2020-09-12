@@ -1,0 +1,8 @@
+from math import sqrt
+def is_pronic(n):
+a=int(sqrt(n))
+if a*(a+1)==n:
+return "Pronic Number"
+return "Not a pronic number"
+n=int(input())
+print(is_pronic(n))
