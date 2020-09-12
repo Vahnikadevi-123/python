@@ -1,3 +1,6 @@
+
+
+
 from math import sqrt
 def is_pronic(n):
     a=int(sqrt(n))
