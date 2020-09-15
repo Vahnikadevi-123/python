@@ -1,7 +1,7 @@
 ##If a number is represented in it's binary form, count the no of 1's in it and print them.
 
 
-#Converting into binary and finiding no of 1's:
+#Converting into binary and finiding no of 1's: ---> Method-1
 
 n=int(input())
 s=bin(n)
@@ -24,3 +24,12 @@ print(count)
 
 
 #Using Bitwise AND:
+
+n=int(input())
+res=0
+c=0
+while n:
+c+=1
+n=n&(n-1)
+res+=1
+print(res)
