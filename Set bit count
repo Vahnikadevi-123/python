@@ -1,0 +1,26 @@
+##If a number is represented in it's binary form, count the no of 1's in it and print them.
+
+
+#Converting into binary and finiding no of 1's:
+
+n=int(input())
+s=bin(n)
+c=0
+for i in s[2:]:
+    if i=='1':
+        c+=1
+print(c)
+
+
+#In mathematical way:
+
+n=int(input())
+count=0
+while n:
+    if n%2!=0:
+        count+=1
+    n=n//2
+print(count)
+
+
+#Using Bitwise AND:
