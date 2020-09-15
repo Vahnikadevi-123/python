@@ -1,7 +1,6 @@
 ##If a number is represented in it's binary form, count the no of 1's in it and print them.
 
-
-#Converting into binary and finiding no of 1's: ---> Method-1
+     #Converting into binary and finiding no of 1's: ---> Method-1
 
 n=int(input())
 s=bin(n)
@@ -11,8 +10,7 @@ for i in s[2:]:
         c+=1
 print(c)
 
-
-#In mathematical way:
+    #In mathematical way: ---> Method-2
 
 n=int(input())
 count=0
@@ -22,8 +20,7 @@ while n:
     n=n//2
 print(count)
 
-
-#Using Bitwise AND:
+     #Using Bitwise AND: ---> Method-3
 
 n=int(input())
 res=0
@@ -34,8 +31,7 @@ while n:
     res+=1
 print(res)
 
-
-#Using Shift Operator:
+     #Using Shift Operator: ---> Method-4
 
 n=int(input())
 res=0
