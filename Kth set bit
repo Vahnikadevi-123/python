@@ -23,7 +23,6 @@ k=int(input())
 print(kth_set_bit(n,k))
 
     
-    
 ##Method-2:
 
 n=int(input())
