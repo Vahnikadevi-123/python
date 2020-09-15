@@ -1,0 +1,41 @@
+##Perform right shitf for a given number to k-1 times and perform bitwise and
+##with 1, if result is 1 then the kth bit is set bit(i.e;1):
+
+##Method-1:
+
+n=int(input())
+k=int(input())
+n=n>>k-1
+if n&1==1:
+    print("True")
+else:
+    print("False")
+
+
+##Infunctions:
+
+def kth_set_bit(n,k):
+    n=n>>k-1
+    if n&1==1:
+        return True
+    return False
+n=int(input())
+k=int(input())
+print(kth_set_bit(n,k))
+
+    
+    
+##Method-2:
+
+n=int(input())
+k=int(input())
+n=bin(n)
+n=n[2:]
+n=n[::-1]
+for i in range(len(n)):
+    if i==k-1:
+        if n[i]=='1':
+            print("True")
+            break
+else:
+    print("False")
