@@ -1,5 +1,4 @@
-##Perform right shitf for a given number to k-1 times and perform bitwise and
-##with 1, if result is 1 then the kth bit is set bit(i.e;1):
+##Perform right shitf for a given number to k-1 times and perform bitwise and with 1, if result is 1 then the kth bit is set bit(i.e;1):
 
 ##Method-1:
 
