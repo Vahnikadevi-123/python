@@ -1,3 +1,6 @@
+
+
+
 n=int(input())
 hex_val=""
 while n:
