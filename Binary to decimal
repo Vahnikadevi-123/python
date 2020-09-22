@@ -14,10 +14,6 @@ print(dec)
 
 
 
-
-
-
-
 n=int(input())
 i=0
 dec=0
