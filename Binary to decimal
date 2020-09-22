@@ -10,3 +10,17 @@ while n:
     dec+=r*base#0+0*1=0  0+1*2=2  2+1*4=6  6+1*8=14
     base=base*2#1*2=2    2*2=4    4*2=8    8*2=16
 print(dec)
+
+
+
+
+n=int(input())
+i=0
+dec=0
+while n:
+    r=n%10
+    n=n//10
+    dec+=r*(2**i)
+    i+=1
+    
+print(dec)
