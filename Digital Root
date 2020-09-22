@@ -1,0 +1,23 @@
+n=input()
+sum=0
+sum1=0
+for i in n:
+    sum=sum+int(i)
+for j in str(sum):
+    sum1=sum1+int(j)
+print(sum1)
+
+#OR
+
+n=int(input())
+sum=0
+sum1=0
+while n:
+    r=n%10
+    n=n//10
+    sum=sum+r
+while sum:
+    r=sum%10
+    sum1=sum1+r
+    sum=sum//10
+print(sum1)
