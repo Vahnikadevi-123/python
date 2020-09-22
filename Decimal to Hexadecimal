@@ -1,5 +1,6 @@
 ## Conversion from Decimal to Hexadecimal:
-
+   dec  ---> hexadec
+   2545 ---> 1F9
 
 n=int(input())
 hex_val=""
