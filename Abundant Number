@@ -6,6 +6,8 @@
             8
             1+2+4+8=15  (15<16)
             Hence, It is not a Abundant Number.
+            
+            
 n=int(input())
 fact=1
 sum=0
