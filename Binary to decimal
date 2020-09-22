@@ -12,6 +12,7 @@ while n:
 print(dec)
 
 
+       #OR
 
 
 n=int(input())
