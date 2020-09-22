@@ -1,5 +1,11 @@
 ##If the sum of factors of a number without itself is greater than the number then it is called "ABUNDANT NUMBER".
-
+  Example: 16
+            1
+            2
+            4
+            8
+            1+2+4+8=15  (15<16)
+            Hence, It is not a Abundant Number.
 n=int(input())
 fact=1
 sum=0
