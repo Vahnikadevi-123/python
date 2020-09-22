@@ -1,4 +1,4 @@
-##
+##If the sum of factors of a number without itself is greater than the number then it is called "ABUNDANT NUMBER".
 
 n=int(input())
 fact=1
