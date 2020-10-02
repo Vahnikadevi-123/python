@@ -1,1 +1,18 @@
+L=list(map(int,input().split()))
+n=int(input())
+for i in range(len(L)):
+    if L[i]==n:
+        print("Found")
+        break
+else:
+    print("Not found")
+
+  #OR
+
+L=list(map(int,input().split()))
+n=int(input())
+if n in L:
+    print("Found")
+else:
+    print("Not found")
 
