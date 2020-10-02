@@ -1,4 +1,5 @@
 
+
 L=list(map(int,input().split()))
 s=int(input())
 c=0
