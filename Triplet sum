@@ -11,3 +11,19 @@ for i in range(len(L)-2):
                 c+=1
 print(c)
 
+n=int(input())
+L=list(map(int,input().split()))#12 2 1 3 4 6 9
+L.sort()
+for i in range(len(L)-1):
+    sum1=n-L[i]
+    j=i+1
+    k=len(L)-1
+    while j<k:
+        if L[j]+L[k]==sum1:
+            print(L[i],L[j],L[k])
+            break
+        elif L[j]+L[k]<sum1:
+            j+=1
+        else:
+            k-=1
+    
