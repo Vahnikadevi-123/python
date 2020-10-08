@@ -1,3 +1,9 @@
+##Taking a list as input and converting it into integer and adding '1' to it and
+finally converting it into list.
+Example--> [1,2,4,9]
+           1249+1=1250
+      output---> [1,2,5,0]
+
 L=list(map(int,input().split(',')))
 x=0
 for i in L:
