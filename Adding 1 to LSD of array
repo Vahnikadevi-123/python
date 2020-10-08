@@ -1,1 +1,8 @@
+L=list(map(int,input().split(',')))
+x=0
+for i in L:
+    x=x*10+i
+x=x+1
+z=list(map(int,str(x)))
+print(z)
 
