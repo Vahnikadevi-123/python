@@ -4,6 +4,7 @@ Example--> [1,2,4,9]
            1249+1=1250
       output---> [1,2,5,0]
 
+
 L=list(map(int,input().split(',')))
 x=0
 for i in L:
