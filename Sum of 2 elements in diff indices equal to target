@@ -6,7 +6,8 @@ for i in range(len(nums)):
             print(i,j)
             break
             
-#OR
+            
+             #OR
 
 
 target=int(input())
