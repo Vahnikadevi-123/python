@@ -1,5 +1,6 @@
 ## Example--> 8 1 4 2 3
        output---> [4,3 2 1 0]
+       
 L=list(map(int,input().split()))
 z=[]
 count=0
