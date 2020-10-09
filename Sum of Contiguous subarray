@@ -1,3 +1,5 @@
+
+
 s=int(input())
 a=[]
 L=list(map(int,input().split()))
