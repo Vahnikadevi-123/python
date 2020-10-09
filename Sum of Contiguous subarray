@@ -7,3 +7,18 @@ for i in range(len(L)):
             z=len(L[i:j+1])
             a.append(z)
 print(min(a))  
+
+
+s=int(input())
+L=list(map(int,input().split()))
+i=0
+cur_sum=0
+z=[]
+for j in range(0,len(L)):
+    cur_sum+=L[j]
+    while(cur_sum>=s):
+        z.append(len(L[i:j+1]))
+        cur_sum-=L[i]
+        i+=1
+print(min(z))
+
