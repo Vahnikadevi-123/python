@@ -12,7 +12,7 @@ for i in range(len(L)):
     z.append(count)
 print(z)
 
-
+         #OR
 
 L=list(map(int,input().split()))
 arr=sorted(L)
