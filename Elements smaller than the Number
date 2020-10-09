@@ -11,3 +11,20 @@ for i in range(len(L)):
             count+=1
     z.append(count)
 print(z)
+
+
+
+L=list(map(int,input().split()))
+arr=sorted(L)
+d={}
+count=0
+for i in range(len(L)):
+    if arr[i] not in d:
+        d[arr[i]]=count
+        count+=1
+    else:
+        count+=1
+for i in range(len(L)):
+    L[i]=d[L[i]]
+print(L)
+
