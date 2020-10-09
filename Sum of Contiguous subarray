@@ -1,1 +1,9 @@
-
+s=int(input())
+a=[]
+L=list(map(int,input().split()))
+for i in range(len(L)):
+    for j in range(i,len(L)):
+        if sum(L[i:j+1])>=s:
+            z=len(L[i:j+1])
+            a.append(z)
+print(min(a))  
