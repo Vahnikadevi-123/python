@@ -1,4 +1,4 @@
-
+##Sum of Minimal length contiguous subarray greater than or equal to given sum:
 
 s=int(input())
 a=[]
