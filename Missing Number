@@ -4,7 +4,7 @@ for i in range(len(arr)):
     if i not in arr:
         print(i)
         
-        
+        ##OR
         
 arr=list(map(int,input().split()))
 n=len(arr)
