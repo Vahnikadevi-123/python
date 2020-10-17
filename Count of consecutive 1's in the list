@@ -1,4 +1,4 @@
-##Example--->
+##Example---> L=[1,0,1,1,0,1,1,1]
 
 n=int(input())
 L=list(map(int,input().split()))
