@@ -1,5 +1,5 @@
 ##Example---> L=[1,0,1,1,0,1,1,1]
-           Output--->3   Hence, The maximum count of consecutive
+           Output--->3   Hence, The maximum count of consecutive 1's is 3.
 
 n=int(input())
 L=list(map(int,input().split()))
