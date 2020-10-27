@@ -1,1 +1,10 @@
-
+n=int(input())
+L=list(map(int,input().split()))
+arr1=[]
+arr2=[]
+for i in range(n):
+    if i%2==0:
+        arr1.append(i)
+    else:
+        arr2.append(i)
+print(arr1+arr2)
