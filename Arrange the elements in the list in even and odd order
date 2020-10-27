@@ -10,3 +10,5 @@ for i in range(n):
     else:
         arr2.append(i)
 print(arr1+arr2)
+
+##METHOD-2:(USING LIST COMPREHENSION):
