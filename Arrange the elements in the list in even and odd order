@@ -15,4 +15,7 @@ print(arr1+arr2)
 
 n=int(input())
 L=list(map(int,input().split()))
+arr1=[x for x in L if x%2==0]
+arr2=[x for x in L if x%2==1]
+print(arr1+arr2)
 
