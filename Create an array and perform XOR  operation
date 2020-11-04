@@ -1,3 +1,5 @@
+##METHOD-1:
+
 n=int(input())
 start=int(input())
 nums=[0 for i in range(n)]
