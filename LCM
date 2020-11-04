@@ -1,4 +1,4 @@
-
+##LCM of three numbers using shortcut method:
 
 a,b,c=map(int,input().split())
 if a>b and a>c:
