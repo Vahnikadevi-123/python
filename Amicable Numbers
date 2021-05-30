@@ -1,4 +1,5 @@
-##AMICABLE NUMBERS: Two numbersxs are said to be amicable numbers if the sum of divisors of one number is equal to another number
+##AMICABLE NUMBERS: Two numbers are said to be Amicable numbers if the sum of divisors of one number is equal to another number.
+## Example: 220 and 284
 
 n1=int(input())
 n2=int(input())
