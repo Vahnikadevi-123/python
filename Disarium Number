@@ -1,1 +1,28 @@
+#METHOD-1:
 
+n=int(input())
+L=list(str(n))
+s1=0
+for i in range(len(L)):
+    s1+=int(L[i])**(i+1)
+if(s1==n):
+    print(n,"Disarium number")
+else:
+    print(n,"not a Disarium number")
+
+
+##METHOD-2:
+    
+n=int(input())
+temp=n
+s1=0
+l=len(str(n))
+while n:
+    r=n%10
+    n=n//10
+    s1+=r**l
+    l-=1
+if s1==temp:
+    print(temp,"Disarium number")
+else:
+    print(temp,"not a Disarium number")
