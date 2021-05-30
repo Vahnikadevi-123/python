@@ -1,4 +1,5 @@
 ##DISARIUM NUMBER: If a number is said to Disarium number if the sum of the power of the digit is equal the number then it is called as Disarium number.
+##   Example ---> 175 = 1**1 + 7**2 + 5**3 = 1+49+125 = 175
 
 #METHOD-1:
 
