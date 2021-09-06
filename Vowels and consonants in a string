@@ -1,1 +1,11 @@
 
+s="THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG"
+s1=""
+s2=""
+for i in s:
+    if i=="a" or i=="e" or i=="o" or i=="i" or i=="u" or i=="A" or i=="E" or i=="I" or i=="O" or i=="U":
+        s1+=i
+    else:
+        s2+=i
+        s2=s2.replace(" ","")
+print(s1,s2)
